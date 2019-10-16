@@ -33,7 +33,7 @@ describe('Cinema', function () {
     assert.strictEqual(actual, films.title)
   });
   it('should be able to find a film by title', function (title) {
-    const actual = cinema.findFilmByTitle(title);
+    const actual = cinema.findFilmByTitle('Dunkirk');
     assert.strictEqual(actual, films.title)
   });
   it('should be able to filter films by genre');
